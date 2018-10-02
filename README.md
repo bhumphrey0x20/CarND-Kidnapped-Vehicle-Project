@@ -1,11 +1,10 @@
 # Kidnapped Vehicle Project
-## Udacity, Self-Driving Car Nanodegree
-## Term2
+## Udacity, Self-Driving Car Nanodegree, Term2
 
-### Goal: Implement a particle filter for vehicle localization.
+### Goal: 
+Implement a particle filter for vehicle localization.
 
 ### Results: 
-
 Successfully passed localization criteria with x, y, and yaw errors = 0.131, 0.123, 0.005.
 
 <img src="https://github.com/bhumphrey0x20/CarND-Kidnapped-Vehicle-Project/blob/master/pic01.png" width=250 height=175/> 
