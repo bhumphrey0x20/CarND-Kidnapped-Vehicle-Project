@@ -19,6 +19,7 @@
 const double M_PI = 3.14159265358979323846;
 #endif
 
+
 /*
  * Struct representing one position/control measurement.
  */
@@ -46,6 +47,7 @@ struct LandmarkObs {
 	int id;				// Id of matching landmark in the map.
 	double x;			// Local (vehicle coordinates) x position of landmark observation [m]
 	double y;			// Local (vehicle coordinates) y position of landmark observation [m]
+	double vector;
 };
 
 /*
@@ -240,5 +242,7 @@ inline bool read_landmark_data(std::string filename, std::vector<LandmarkObs>& o
 	}
 	return true;
 }
+
+
 
 #endif /* HELPER_FUNCTIONS_H_ */
