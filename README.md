@@ -1,6 +1,6 @@
 # Kidnapped Vehicle Project
 ## Udacity, Self-Driving Car Nanodegree
-##Term2
+## Term2
 
 ### Goal: Implement a particle filter for vehicle localization.
 
